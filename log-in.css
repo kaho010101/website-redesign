@@ -507,7 +507,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  background: linear-gradient(45deg, #e50001, #f8dc00); /* Gradient background */
+  background: linear-gradient(45deg, #ef6667, #fbe967); /* Gradient background */
   border: 2px solid rgba(255, 255, 255, .2);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
