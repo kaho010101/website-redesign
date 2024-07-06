@@ -1,0 +1,395 @@
+body {
+    display: block;
+    overflow-x: hidden;
+  }
+  
+  nav {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e67d50;
+  }
+  
+  nav ul li a {
+    color: #e20c0c;
+    font-size: 18px;
+    margin: auto 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+
+  }
+  nav ul li a:hover {
+    color: #ff611d;
+  }
+  
+  .navbar-brand:hover {
+    color: #c2a337;
+  }
+  
+  #hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  #hero h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e67d50;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  p {
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  #hero p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  #hero button {
+    max-width: 50%;
+    border-radius: 50px !important;
+  }
+  
+  #hero .img-fluid {
+    max-width: 100%;
+    height: 350px;
+    left: 10%;
+  }
+  
+  #hero .card {
+    border: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  #hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+/* Footer */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+    flex: 1;
+  }
+  
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: url("jollibee-peek.png") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 70px 0;
+  }
+  
+  .footercontainer {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+
+  .footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #fba409;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ccc;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #fba409;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: #fba409;
+  }
+  
+  .app-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .app-icons a {
+    margin-bottom: 10px;
+  }
+  
+  .apple {
+    max-width: 160px;
+  }
+  
+  .android {
+    width: 180px;
+  }
+
+/* End of Footer */
+
+/* General Reset */
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("https://miro.medium.com/v2/resize:fit:1153/1*nqFKa0s4MjN5cBXf-wWdyQ.png") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrapper {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background: linear-gradient(45deg, #e50001, #f8dc00); /* Gradient background */
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  .wrapper .left-column,
+  .wrapper .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .wrapper h1,
+  .wrapper h2 {
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  
+  .input-box input {
+    align-items: center;
+    width: 85%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 45px 0 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .input-box input::placeholder {
+    color: #fff;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: -15px 0 15px;
+    width: 85%;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  
+  .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .wrapper .btn {
+    width: 85%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .wrapper .facebook-btn {
+    background: #3b5998;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .wrapper .facebook-btn i {
+    margin-right: 10px;
+  }
+  
+  .wrapper .register-link {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    width: 85%;
+  }
+  
+  .register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .register-link p a:hover {
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 900px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .wrapper {
+      padding: 15px 20px;
+    }
+  
+    .wrapper h1,
+    .wrapper h2 {
+      font-size: 24px;
+    }
+  
+    .input-box input {
+      padding: 0 30px 0 15px;
+    }
+  
+    .input-box i {
+      font-size: 18px;
+      font-family: 'Varela Round', sans-serif;
+    }
+  }
