@@ -90,41 +90,58 @@ body {
     margin-bottom: 50px; 
   }
 
+  /*About us */
   #aboutus .aboutus {
     margin-bottom: 50px;  
   }
-  
-  #contact {
-    text-align: center;
-    background-color: #acabac;
-    color: white;
-  }
-  e
-  #contact h1 {
-    text-align: center;
-    color: white;
-  }
-
-  .carousel-item img {
-    object-fit: cover;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: auto;
-    height: auto;
-    background: none;
-    border: none;
-    color: black;
-}
 
 .bg {
   margin-bottom: 10px;
+  margin-left: 75px;
+  margin-right: 75px;
   padding: 20px;
   background: #fff;
   height: 450px;
   align-items: center;
 }
+
+.img-about-us {
+  max-height: 100;
+}
+
+@media (min-width: 700px) {
+  #aboutus .col {
+    display: flex;
+    justify-content: center; /* Center align contents horizontally */
+    align-items: center; /* Center align contents vertically */
+    flex-direction: column; /* Stack columns vertically on larger screens */
+  }
+}
+
+#imagezoom-foundation {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background: url("https://images.squarespace-cdn.com/content/v1/5c9065c5fd67934053124f1d/1588067208908-LB9YUUW0M7V5DCRP2DU2/VCS_JOLLIBEE-GROUP-FOUNDATION.jpg");
+  background-size: 100%; 
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease; 
+}
+
+#foundation .box {
+  max-width: 600px; /* Adjust max-width to your preference */
+  margin: 0 auto; /* Center align horizontally */
+  margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  #foundation .box {
+    text-align: left; /* Align text to the left on larger screens */
+  }
+}
+
+/*End of About us */
 
 .menubg {
   background-image: url('C:\Users\Joana Marie Zapanta\Downloads\fastfood.png');
@@ -164,18 +181,6 @@ ul {
   transition: background-size 0.01s ease; 
 }
 
-
-#imagezoom-foundation {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: url("https://images.squarespace-cdn.com/content/v1/5c9065c5fd67934053124f1d/1588067208908-LB9YUUW0M7V5DCRP2DU2/VCS_JOLLIBEE-GROUP-FOUNDATION.jpg");
-  background-size: 100%; 
-  background-position: center;
-  background-attachment: fixed;
-  transition: background-size 0.01s ease; 
-}
-
 #imagezoom-chicken {
   position: relative;
   width: 100%;
@@ -185,7 +190,6 @@ ul {
   background-attachment: fixed;
   padding: 50px 0;
   text-align: center;
-    margin-top: 100px;
 }
 
 #imagezoom-chicken h1 {
@@ -202,7 +206,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .card-body-promotion {
@@ -360,11 +364,17 @@ ul {
   box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.4);
 }
 
-
+/* Footer */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.footer {
+  padding: 70px 0;
+  background: url("jollibee-peek.png") no-repeat center center;
+  background-size: cover;
 }
 
 .footercontainer {
@@ -379,11 +389,6 @@ ul {
 
 ul {
   list-style: none;
-}
-
-.footer {
-  background-color: #212121;
-  padding: 70px 0;
 }
 
 .footer-col {
@@ -479,3 +484,5 @@ ul {
 .apple {
   width: 164px;
 }
+
+/* End of Footer */
