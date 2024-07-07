@@ -188,7 +188,9 @@ transition: background-size 0.01s ease;
   background-position: center;
   padding: 50px 0;
   text-align: center;
-  margin-bottom: 0; /* Remove any bottom margin */
+  margin-bottom: 0;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease; 
 }
 
 #imagezoom-chicken h1 {
@@ -263,7 +265,9 @@ transition: background-size 0.01s ease;
   background-position: center;
   padding: 50px 0;
   text-align: center;
-  margin-top: 0; /* Remove any top margin */
+  margin-top: 0;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease; 
 }
 
 
@@ -392,7 +396,7 @@ box-sizing: border-box;
 
 .footer {
 padding: 70px 0;
-background: url("C:\Users\Joana Marie Zapanta\Desktop\Jollibee\jollibee-peek.png") no-repeat center center;
+background: url("jollibee-peek.png") no-repeat center center;
 background-size: cover;
 }
 
