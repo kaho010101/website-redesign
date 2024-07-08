@@ -121,7 +121,7 @@ p {
 
 #hero button {
   max-width: 50%;
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 
 #hero .img-fluid {
