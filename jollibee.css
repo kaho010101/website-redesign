@@ -293,7 +293,7 @@ transition: background-size 0.01s ease;
   border: none;
   padding: 20px;
   height: 100%; /* Ensures all card boxes are of equal height */
-  display: flex;
+  display: sticky;
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Varela Round', sans-serif;
