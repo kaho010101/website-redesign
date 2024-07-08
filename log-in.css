@@ -1,95 +1,95 @@
 body {
-    display: block;
-    overflow-x: hidden;
-  }
-  
-  nav {
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    align-items: center;
-  }
-  
-  .navbar-brand img {
-    max-height: 50px;
-  }
-  
-  .navbar-brand {
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #e67d50;
-  }
-  
-  nav ul li a {
-    color: #e20c0c;
-    font-size: 18px;
-    margin: auto 10px;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 600;
+  display: block;
+  overflow-x: hidden;
+}
 
-  }
-  nav ul li a:hover {
-    color: #ff611d;
-  }
-  
-  .navbar-brand:hover {
-    color: #c2a337;
-  }
-  
-  #hero {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  #hero h1 {
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #e67d50;
-    margin-bottom: 20px;
-    font-family: 'Varela Round', sans-serif;
-  }
+/* Navigation */
+nav {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
 
-  h1 {
-    font-family: 'Varela Round', sans-serif;
-  }
+.navbar-brand img {
+  max-height: 50px;
+}
 
-  p {
-    font-family: 'Varela Round', sans-serif;
-  }
-  
-  #hero p {
-    font-size: 16px;
-    font-weight: 300;
-  }
-  
-  #hero button {
-    max-width: 50%;
-    border-radius: 50px !important;
-  }
-  
-  #hero .img-fluid {
-    max-width: 100%;
-    height: 350px;
-    left: 10%;
-  }
-  
-  #hero .card {
-    border: 0;
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 20px;
-  }
-  
-  #hero .icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 20px;
-  }
-  
-  #menu .menu {
-    margin-bottom: 50px; 
-  }
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e67d50 !important;
+}
 
+nav ul li a {
+  color: #e20c0c !important;
+  font-size: 18px;
+  margin: auto 10px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ff611d !important;
+}
+
+.navbar-brand:hover {
+  color: #c2a337 !important;
+}
+
+#hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#hero h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e67d50;
+  margin-bottom: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+}
+
+#hero p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#hero button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
+#hero .img-fluid {
+  max-width: 100%;
+  height: 350px;
+  left: 10%;
+}
+
+#hero .card {
+  border: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+#hero .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#menu .menu {
+  margin-bottom: 50px; 
+}
  
 /* Footer */
 * {
