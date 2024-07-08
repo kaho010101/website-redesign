@@ -236,7 +236,7 @@ background-position: center;
 background-attachment: fixed;
 transition: background-size 0.01s ease; 
 }
-
+/* Yellow bg chicken */
 #imagezoom-chicken {
   position: relative;
   width: 100%;
@@ -254,19 +254,6 @@ transition: background-size 0.01s ease;
   font-size: 42px;
   color: #fff;
 }
-
-.cardpromotion {
-  background-color: #221f0c4a; /* Adjusted background color transparency */
-  border: none;
-  padding: 20px;
-  height: 100%; /* Ensures all card boxes are of equal height */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Varela Round', sans-serif;
-  margin-top: 0px;
-}
-
 .cardbundle {
   background-color: transparent; /* Adjusted background color transparency */
   border: none;
@@ -277,6 +264,33 @@ transition: background-size 0.01s ease;
   justify-content: space-between;
   font-family: 'Varela Round', sans-serif;
   margin-bottom: 5px; 
+}
+/* End of Yellow bg chicken */
+
+/* Burger */
+#imagezoom-burger {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/450095173_1041263580901592_819800227817545595_n.png?stp=dst-png_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ReOUZcv5Ps0Q7kNvgHf5G-J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QHt-8bewfhXwJIaWs9sqFwm_xS79kT40sSBY-UeUwd5jQ&oe=66B0A78D");
+  background-size: 80%; 
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 0;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease; 
+}
+.cardpromotion {
+  background-color: #221f0c4a; /* Adjusted background color transparency */
+  border: none;
+  padding: 20px;
+  height: 100%; /* Ensures all card boxes are of equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Varela Round', sans-serif;
+  margin-top: 0px;
 }
 
 .card-body-promotion {
@@ -296,6 +310,7 @@ transition: background-size 0.01s ease;
       transform: translateY(0);
   }
 }
+/* End of Burger */
 
 .promotion-img {
   height: 400px;
@@ -311,20 +326,6 @@ transition: background-size 0.01s ease;
   cursor: pointer;
   margin: 10px 0;
   font-size: 15px;
-}
-
-#imagezoom-burger {
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/450095173_1041263580901592_819800227817545595_n.png?stp=dst-png_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ReOUZcv5Ps0Q7kNvgHf5G-J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QHt-8bewfhXwJIaWs9sqFwm_xS79kT40sSBY-UeUwd5jQ&oe=66B0A78D");
-  background-size: 80%; 
-  background-position: center;
-  padding: 50px 0;
-  text-align: center;
-  margin-top: 0;
-  background-attachment: fixed;
-  transition: background-size 0.01s ease; 
 }
 
 .swiper-slide {
