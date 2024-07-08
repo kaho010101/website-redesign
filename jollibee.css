@@ -168,9 +168,9 @@ max-height: 100;
 @media (min-width: 700px) {
 #aboutus .col {
   display: flex;
-  justify-content: center; /* Center align contents horizontally */
-  align-items: center; /* Center align contents vertically */
-  flex-direction: column; /* Stack columns vertically on larger screens */
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
 }
 }
 
@@ -186,14 +186,14 @@ transition: background-size 0.01s ease;
 }
 
 #foundation .box {
-max-width: 600px; /* Adjust max-width to your preference */
-margin: 0 auto; /* Center align horizontally */
+max-width: 600px; 
+margin: 0 auto; 
 margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
 #foundation .box {
-  text-align: left; /* Align text to the left on larger screens */
+  text-align: left; 
 }
 }
 
@@ -255,10 +255,10 @@ transition: background-size 0.01s ease;
   color: #fff;
 }
 .cardbundle {
-  background-color: transparent; /* Adjusted background color transparency */
+  background-color: transparent;
   border: none;
   padding: 5px;
-  height: 100%; /* Ensures all card boxes are of equal height */
+  height: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -282,10 +282,10 @@ transition: background-size 0.01s ease;
   transition: background-size 0.01s ease; 
 }
 .cardpromotion {
-  background-color: #221f0c4a; /* Adjusted background color transparency */
+  background-color: #221f0c4a; 
   border: none;
   padding: 20px;
-  height: 100%; /* Ensures all card boxes are of equal height */
+  height: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -295,13 +295,13 @@ transition: background-size 0.01s ease;
 
 .card-body-promotion {
   color: #fff;
-  flex: 1; /* Allows the body to expand within the card box */
+  flex: 1; 
 }
 
 .anim {
   opacity: 0;
   transform: translateY(30px);
-  animation: moveup 0.8s forwards; /* Adjusted animation timing */
+  animation: moveup 0.8s forwards; 
 }
 
 @keyframes moveup {
@@ -314,8 +314,8 @@ transition: background-size 0.01s ease;
 
 .promotion-img {
   height: 400px;
-  width: auto; /* Ensures the image maintains its aspect ratio */
-  object-fit: cover; /* Ensures the image covers the entire area */
+  width: auto; 
+  object-fit: cover; 
 }
 
 .promotion-button {
@@ -329,15 +329,15 @@ transition: background-size 0.01s ease;
 }
 
 .swiper-slide {
-width: 300px !important; /* Increase slide width */
-height: auto; /* Allow height to adjust based on content */
+width: 300px !important; 
+height: auto; 
 }
 
 .slider-box {
 margin: 20px;
 position: relative;
-width: calc(115% - 40px); /* Adjusted width with margin */
-height: 100%; /* Maintain height */
+width: calc(115% - 40px);
+height: 100%; 
 background-color: #fff;
 border-radius: 5px;
 display: flex;
@@ -350,7 +350,7 @@ padding: 10px;
 }
 
 .img-box {
-height: 200px; /* Increased height for the image box */
+height: 200px; 
 display: flex;
 justify-content: center;
 align-items: center;
