@@ -247,13 +247,14 @@ transition: background-size 0.01s ease;
   text-align: center;
   margin-bottom: 0;
   background-attachment: fixed;
-  transition: background-size 0.01s ease; 
+  transition: background-size 0.01s ease;
 }
 
 #imagezoom-chicken h1 {
   font-size: 42px;
   color: #fff;
 }
+
 .cardbundle {
   background-color: transparent; /* Adjusted background color transparency */
   border: none;
@@ -265,13 +266,18 @@ transition: background-size 0.01s ease;
   font-family: 'Varela Round', sans-serif;
   margin-bottom: 5px; 
 }
-/* End of Yellow bg chicken */
+
+.promotion-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 
 /* Burger */
 #imagezoom-burger {
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: auto;
   background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/450095173_1041263580901592_819800227817545595_n.png?stp=dst-png_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ReOUZcv5Ps0Q7kNvgHf5G-J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QHt-8bewfhXwJIaWs9sqFwm_xS79kT40sSBY-UeUwd5jQ&oe=66B0A78D");
   background-size: 80%; 
   background-position: center;
@@ -279,8 +285,9 @@ transition: background-size 0.01s ease;
   text-align: center;
   margin-top: 0;
   background-attachment: fixed;
-  transition: background-size 0.01s ease; 
+  transition: background-size 0.01s ease;
 }
+
 .cardpromotion {
   background-color: #221f0c4a; /* Adjusted background color transparency */
   border: none;
@@ -290,12 +297,16 @@ transition: background-size 0.01s ease;
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Varela Round', sans-serif;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 .card-body-promotion {
   color: #fff;
   flex: 1; /* Allows the body to expand within the card box */
+}
+
+.promotion-button {
+  margin-top: 10px;
 }
 
 .anim {
@@ -310,22 +321,38 @@ transition: background-size 0.01s ease;
       transform: translateY(0);
   }
 }
-/* End of Burger */
 
-.promotion-img {
-  height: 400px;
-  width: auto; /* Ensures the image maintains its aspect ratio */
-  object-fit: cover; /* Ensures the image covers the entire area */
+@media (max-width: 768px) {
+  #imagezoom-chicken, #imagezoom-burger {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  #imagezoom-chicken h1, #imagezoom-burger h1 {
+    font-size: 32px;
+  }
+
+  .promotion-img, .card-body-promotion {
+    font-size: 16px;
+  }
+
+  .promotion-button {
+    font-size: 14px;
+  }
 }
 
-.promotion-button {
-  padding: 10px 20px;
-  background-color: #fff;
-  color: #000;
-  border: none;
-  cursor: pointer;
-  margin: 10px 0;
-  font-size: 15px;
+@media (max-width: 576px) {
+  #imagezoom-chicken, #imagezoom-burger {
+    padding: 20px 0;
+  }
+
+  .promotion-img, .card-body-promotion {
+    font-size: 14px;
+  }
+
+  .promotion-button {
+    font-size: 12px;
+  }
 }
 
 .swiper-slide {
