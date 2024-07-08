@@ -119,11 +119,6 @@ p {
   font-weight: 300;
 }
 
-#hero button {
-  max-width: 50%;
-  border-radius: 50px;
-}
-
 #hero .img-fluid {
   max-width: 100%;
   height: 350px;
