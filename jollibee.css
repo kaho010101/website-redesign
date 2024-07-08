@@ -308,6 +308,7 @@ transition: background-size 0.01s ease;
   cursor: pointer;
   margin: 10px 0;
   font-size: 15px;
+  border-radius: 5px;
 }
 
 .anim {
