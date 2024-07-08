@@ -37,6 +37,61 @@ nav ul li a:hover {
   color: #c2a337 !important;
 }
 /* End of Navigation */
+/* Chickenjoy Bida ang saya*/
+#imagezoom-chickenjoy {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("https://scontent.fmnl30-1.fna.fbcdn.net/v/t1.15752-9/449677181_469907708976487_1042371608755531603_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=qgW345V3CtEQ7kNvgGnAF7b&_nc_ht=scontent.fmnl30-1.fna&cb_e2o_trans=t&oh=03_Q7cD1QFv8BwvXN8iGKXaZX0lpxF-A-LT0u7crLpq5ot06DR_6A&oe=66AF9855");
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease;
+}
+
+.chickenjoy-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.chickenjoy-button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 22px;
+}
+.chickenjoy-button:hover {
+  background-color: #535353;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #imagezoom-chickenjoy {
+    background-size: cover; 
+    background-attachment: scroll; 
+  }
+
+  .chickenjoy-box h1 {
+    font-size: 50px; 
+  }
+
+  .chickenjoy-box p {
+    font-size: 20px; 
+  }
+
+  .chickenjoy-button {
+    font-size: 18px; 
+  }
+}
+/* End of Chickenjoy Bida ang saya*/
 
 #hero {
   padding-top: 100px;
@@ -270,42 +325,6 @@ transition: background-size 0.01s ease;
   margin-top: 0;
   background-attachment: fixed;
   transition: background-size 0.01s ease; 
-}
-
-
-#imagezoom-chickenjoy {
-position: relative;
-width: 100%;
-height: 100vh;
-background: url("https://scontent.fmnl30-1.fna.fbcdn.net/v/t1.15752-9/449677181_469907708976487_1042371608755531603_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=qgW345V3CtEQ7kNvgGnAF7b&_nc_ht=scontent.fmnl30-1.fna&cb_e2o_trans=t&oh=03_Q7cD1QFv8BwvXN8iGKXaZX0lpxF-A-LT0u7crLpq5ot06DR_6A&oe=66AF9855");
-background-size: 100%; 
-background-position: center;
-background-attachment: fixed;
-transition: background-size 0.01s ease; 
-}
-
-.chickenjoy-box {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-color: white;
-z-index: 1;
-}
-
-.chickenjoy-button {
-padding: 10px 20px;
-background-color: #fff;
-color: #000;
-border: none;
-cursor: pointer;
-margin: 10px 0;
-font-size: 22px;
-}
-.chickenjoy-button:hover {
-background-color: #535353;
-color: #fff;
 }
 
 .swiper-slide {
