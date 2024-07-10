@@ -409,6 +409,17 @@ transform: scale(1.1);
 box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.4);
 }
 
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+}
+
+.card-link:hover .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
 /* Footer */
 * {
 margin: 0;
